@@ -1,0 +1,17 @@
+# Secrets and local data: never commit
+.env
+var/
+*.db
+uploads/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+.DS_Store
