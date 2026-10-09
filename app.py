@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import streamlit as st
 
-st.set_page_config(page_title="TalentLens AI", page_icon="◎", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="ShowMeCVs", page_icon="◎", layout="wide", initial_sidebar_state="expanded")
 
 from talentlens.core import db, services  # noqa: E402
 from talentlens.core.models import Vacancy  # noqa: E402

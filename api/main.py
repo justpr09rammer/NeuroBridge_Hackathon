@@ -23,7 +23,7 @@ async def lifespan(_app: FastAPI):
     yield
 
 
-app = FastAPI(title="TalentLens AI API", version="1.0.0", lifespan=lifespan,
+app = FastAPI(title="ShowmeCV API", version="1.0.0", lifespan=lifespan,
               description="Evidence-based CV screening. Local hackathon MVP; not production-ready for real hiring decisions.")
 
 
